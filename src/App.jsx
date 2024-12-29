@@ -15,8 +15,9 @@ import Check from "./Check";
 // 7.imports--> default & named imports
 // 8. Vite
 // 9. git --> a.git init===> create an empty git repository
-//            b.git add . ===> adds new or changed files in your working directory
-//            c.
+//            b.git add . ===> adds entire project apart from files/directories specified in .gitignore
+//            c.git commit -m "first commit" =====> A shortcut command that immediately creates a commit with a passed commit message.
+//            d.
 function App() {
   const [count, setCount] = useState(0);
 
